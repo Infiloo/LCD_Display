@@ -1,0 +1,22 @@
+{
+    "name": "LCD ",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#030ffbfdcd33b80761c014717d3caf8e6b4e14db",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v2.0.7"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
